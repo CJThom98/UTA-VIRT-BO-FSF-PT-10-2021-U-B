@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Header Style Start*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +25,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -45,36 +46,21 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/*Header Style End*/
 
-p {
-    font-size: 16px;
-}
-
+/*Hero Style Starts*/
 .hero {
+    background-image: url("../images/digital-marketing-meeting.jpg");
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
 }
+/*Hero Style Ends*/
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/*Benefits Style Starts*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +119,28 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*Benefits Style Ends*/
 
+/*Content Style Starts*/
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,7 +194,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*Content Style Ends*/
 
+/*Footer Style Starts*/
 .footer {
     padding: 30px;
     clear: both;
@@ -198,3 +207,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*Footer Style Ends*/
