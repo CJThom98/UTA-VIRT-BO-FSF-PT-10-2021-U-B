@@ -48,6 +48,7 @@ router.get('/gallery/:id', async (req, res) => {
 
     const gallery = dbGalleryData.get({ plain: true });
     // TODO: Add a comment describing how we pass the session to the gallery view.
+    //
     res.render('gallery', { gallery, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
