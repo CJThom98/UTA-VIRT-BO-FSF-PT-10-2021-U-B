@@ -23,6 +23,9 @@ function App() {
               <Home />
             </Route>
             {/* TODO: Add code here that creates a route for displaying a single thought's comments */}
+            <Route exact path='/thought/:thoughtId'>
+              <SingleThought />
+            </Route>
           </div>
           <Footer />
         </div>
